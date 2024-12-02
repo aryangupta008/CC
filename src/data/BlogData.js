@@ -1,71 +1,232 @@
 // blog data
 
+import Aryan from '../assets/Images/Aryan.png'
+import Aristo from '../assets/Images/Aristo.png'
+import Akansha from '../assets/Images/Akansha.png'
+import Harsh from '../assets/Images/Harsh.png'
+import Tiya from '../assets/Images/Tiya.png'
+import Helen from '../assets/Images/Helen.png'
+import Vignesh from '../assets/Images/Vignesh.png'
+import Tesa from '../assets/Images/Tesa.jpg'
+import Gautham from '../assets/Images/Gautham.png'
+import Arjama from '../assets/Images/Arjama.png'
+import Arpit from '../assets/Images/Arpit.png'
+import Akash from '../assets/Images/Akash.png'
+import Biju from '../assets/Images/Biju.png'
+import Nived from '../assets/Images/Nived.png'
+import Thanisha from '../assets/Images/Thanisha.png'
+import Pritisha from '../assets/Images/Pritisha.png'
+import Ashwin from '../assets/Images/Ashwin.png'
+import Camellia from '../assets/Images/Camellia.png'
+import Shrabanti from '../assets/Images/Shrabanti.png'
+import Athara from '../assets/Images/Athara.png'
+import KP from '../assets/Images/KP.png'
+import Shloka from '../assets/Images/Shloka.png'
+import Athi from '../assets/Images/athi.png'
+import Rishav from '../assets/Images/Rishav.png'
+import Sanjana from '../assets/Images/Sanjana.png'
+import Emily from '../assets/Images/Emily.png'
+import Jovita from '../assets/Images/Jovita.png'
+import Soumroup from '../assets/Images/Soumroup.png'
+import Derwin from '../assets/Images/Derwin.png'
+
+
 export const Blogs = [
     {
         id:1,
-        name:"Build Website with ReactJS, Styled-components and GSAP for Scrolling Animations",
-        tags:["react","gsap","styled-components"],
+        name:"Emily ",
+        tags:["Faculty Co-ordinator"],
         date:"13 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        imgSrc: Emily
+        
     },
     {
         id:2,
-        name:"How to create React Hamburger Menu using Styled-Components",
-        tags:["react","styled-components"],
+        name:"Jovita Rexy",
+        tags:["Faculty Co-ordinator"],
         date:"5 July, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625479747640%2F7KzwP9nmj.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/react-hamburger-menu"
+        imgSrc: Jovita
     },
     {
         id:3,
-        name:"React Loading Screen: Try these 3 cool loading screens for your app",
-        tags:["react","react-lottie","styled-components"],
+        name:"Athara Jacob",
+        tags:["President"],
         date:"6 July, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625552344293%2Fegwis0UIX.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/react-loading-screens"
+        imgSrc: Athara
     },
     {
         id:4,
-        name:"How to build a Fabulous Todo App using React, Redux and Framer-Motion",
-        tags:["react","redux","framer-motion"],
-        date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--r5oUDhhT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/036s7j5b73up7455rdth.png",
-        link:"https://dev.to/codebucks/build-redux-react-todo-list-app-with-animations-using-framer-motion-1mp1"
+        name:"Soumarup Chakravorty",
+        tags:["Vice President"],
+        date:"30 March, 2024",
+        imgSrc: Soumroup
     },
     {
         id:5,
-        name:"What is Higher Order Component (HOC) in React JS?",
-        tags:["react","reactJS","web-development"],
-        date:"3 Feb, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625295480148%2FlyKj8bpHK.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/what-is-higher-order-component"
+        name:" Ashwin Sabu ",
+        tags:["Secretary"],
+        imgSrc: Ashwin 
     },
     {
         id:6,
-        name:"How to implement Pagination Component in React from scratch",
-        tags:["react","css"],
+        name:"Krishna Priya",
+        tags:["Treasurer"],
         date:"5 Jan, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625240050668%2FGAya9b0XK.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/pagination-in-react"
+        imgSrc: KP
 
     },
    
     {
         id:7,
-        name:"What is Redux ? Simply Explained!",
-        tags:["react","redux","javascript"],
+        name:"Shloka Panda",
+        tags:["Social Media Head"],
         date:"16 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--ZY1EK-Eo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bcz1u90oq3prr5fga3fs.png",
-        link:"https://dev.to/codebucks/what-is-redux-simply-explained-2ch7"
+        imgSrc: Shloka
     },
     {
         id:8,
-        name:"How to create Sidebar navigation menu in ReactJS with react router and framer-motion",
-        tags:["react","framer-motion","styled-components"],
-        date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-        link:"https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3"
+        name:"Athithi",
+        tags:["PR Head"],
+        imgSrc:Athi
+    }, 
+    {
+        id:10,
+        name:"Rishav Jha",
+        tags:["Office Bearers"],
+        imgSrc: Rishav
     },
+    {
+        id:11,
+        name:"Derwin",
+        tags:["Office Bearers"],
+        imgSrc: Derwin
+
+    },
+    {
+        id:12,
+        name:"Camellia",
+        tags:["Office Bearers"],
+        imgSrc: Camellia,
+    },
+    {
+        id:13,
+        name:"Shrabanti",
+        tags:["Office Bearers"],
+        imgSrc: Shrabanti,
+    },
+    {
+        id:14,
+        name:"Ishika",
+        tags:["Office Bearers"],
+        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+
+    },
+    {
+        id:15,
+        name:"Nived",
+        tags:["Office Bearers"],
+        imgSrc: Nived,
+    },
+    {
+        id:16,
+        name:"Sanjana",
+        tags:["Office Bearers"],
+        imgSrc: Sanjana
+    },
+    
+    {
+        id:18,
+        name:"Aryan Gupta",
+        tags:["Core Member"],
+        imgSrc: Aryan,
+    },
+    {
+        id:19,
+        name:"Akansha Seth",
+        tags:["Core Member"],
+        imgSrc: Akansha,
+
+    },
+    {
+        id:20,
+        name:"Arjama ",
+        tags:["Core Member"],
+        imgSrc: Arjama    },
+    {
+        id:21,
+        name:"Thanisha",
+        tags:["Core Member"],
+        imgSrc: Thanisha,
+    },
+    {
+        id:22,
+        name:"Akash",
+        tags:["Core Member"],
+        imgSrc: Akash
+    },
+    {
+        id:23,
+        name:"Helen",
+        tags:["Core Member"],
+        imgSrc: Helen,
+
+    },
+    {
+        id:24,
+        name:"Akshay",
+        tags:["Core Member"],
+        imgSrc: Biju
+    },
+    {
+        id:25,
+        name:"Pritisha",
+        tags:["Core Member"],
+        imgSrc: Pritisha,
+    },
+    {
+        id:26,
+        name:"Gautham",
+        tags:["Core Member"],
+        imgSrc: Gautham
+    },
+    {
+        id:27,
+        name:"Arpit",
+        tags:["Core Member"],
+        imgSrc: Arpit
+    },
+    {
+        id:28,
+        name:"Tesa",
+        tags:["Core Member"],
+        imgSrc: Tesa
+    },
+    {
+        id:29,
+        name:"Aristo",
+        tags:["Core Member"],
+        imgSrc: Aristo,
+    },
+    {
+        id:30,
+        name:"Vignesh",
+        tags:["Core Member"],
+        imgSrc: Vignesh,
+
+    },
+    {
+        id:31,
+        name:"Tiya",
+        tags:["Core Member"],
+        imgSrc:Tiya,
+    },
+    {
+        id:32,
+        name:"Harsh",
+        tags:["Core Member"],
+        imgSrc: Harsh,
+
+    },
+
   
 ] 

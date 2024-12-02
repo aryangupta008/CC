@@ -7,6 +7,8 @@ import PowerButton from '../subComponents/PowerButton'
 import SocialIcons from '../subComponents/SocialIcons'
 import { YinYang } from './AllSvgs'
 import Intro from './Intro'
+import LOGO from '../assets/Images/LOGO.png'
+import ParticleComponent from '../subComponents/ParticleComponent';
 ;
 
 
@@ -19,7 +21,7 @@ overflow:hidden;
 position: relative;
 
 h2,h3,h4,h5,h6{
-  font-family:'Karla', sans-serif ;
+  font-family:'dynapuff', sans-serif ;
   font-weight:500;
 }
 `
@@ -49,7 +51,7 @@ const WORK = styled(NavLink)`
 color: ${props => props.click ? props.theme.body : props.theme.text};
 
 position: absolute;
-top: 50%;
+top: 40%;
 left: calc(1rem + 2vw);
 transform: translate(-50%, -50%) rotate(-90deg) ;
 text-decoration: none;
@@ -116,36 +118,38 @@ transition: all 1s ease;
 const DarkDiv = styled.div`
 position: absolute;
 top: 0;
-background-color: #000;
+background-color:  #000;
 bottom: 0;
 right: 50%;
 width: ${props => props.click ? '50%' : '0%'};
 height: ${props => props.click ? '100%' : '0%'};
-z-index:1;
+z-index:0;
 transition: height 0.5s ease, width 1s ease 0.5s;
 `
 
 
 const Main = () => {
-
+ 
     const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
 
     return (
         <MainContainer>
+            
          <DarkDiv   click={click}/>
+         <ParticleComponent theme='light' />
             <Container>
             <PowerButton />
             <LogoComponent theme={click ? 'dark' :'light'}/>
             <SocialIcons theme={click ? 'dark' :'light'} />
            
             <Center click={click}>
-                <YinYang  onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
-                <span>click here</span>
+                <img className="pic" src={LOGO} alt="Profile Pic"  onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
+                <span></span>
             </Center>
 
-            <Contact target="_blank" href="mailto:codebucks27@gmail.com">
+            <Contact target="_blank" href="mailto:culturalclub@xime.org">
                 <motion.h2
                 initial={{
                     y:-200,
@@ -159,7 +163,7 @@ const Main = () => {
                 whileTap={{scale: 0.9}}
                 
                 >
-                    Say hi..
+                    Ask Us..
                 </motion.h2>
             </Contact>
             <BLOG to="/blog">
@@ -175,7 +179,7 @@ const Main = () => {
                 whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
-                    Blog
+                    Members
                 </motion.h2>
             </BLOG>
             <WORK to="/work" click={+click}>
@@ -191,7 +195,7 @@ const Main = () => {
                  whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
-                    Work
+                    Events
                 </motion.h2>
             </WORK>
             <BottomBar>
@@ -208,7 +212,7 @@ const Main = () => {
                  whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
-                    About.
+                    About
                 </motion.h2>
             </ABOUT>
             <SKILLS to="/skills">
@@ -224,7 +228,7 @@ const Main = () => {
                  whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
-                    My Skills.
+                    Gallery
                 </motion.h2>
             </SKILLS>
 

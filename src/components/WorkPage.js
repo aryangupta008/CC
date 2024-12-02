@@ -11,6 +11,7 @@ import { Work } from "../data/WorkData";
 import Card from "../subComponents/Card";
 import { YinYang } from "./AllSvgs";
 import BigTitlte from "../subComponents/BigTitlte";
+import LOGO from "../assets/Images/LOGO.png"
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
@@ -55,7 +56,7 @@ const container = {
 
 const WorkPage = () => {
   const ref = useRef(null);
-  const yinyang = useRef(null);
+  const LOGORef = useRef(null);
 
   useEffect(() => {
     let element = ref.current;
@@ -63,7 +64,7 @@ const WorkPage = () => {
     const rotate = () => {
       element.style.transform = `translateX(${-window.pageYOffset}px)`;
 
-      return (yinyang.current.style.transform =
+      return (LOGORef.current.style.transform =
         "rotate(" + -window.pageYOffset + "deg)");
     };
 
@@ -85,11 +86,11 @@ const WorkPage = () => {
             <Card key={d.id} data={d} />
           ))}
         </Main>
-        <Rotate ref={yinyang}>
-          <YinYang width={80} height={80} fill={DarkTheme.text} />
+        <Rotate ref={LOGORef}>
+        <img src={LOGO} alt="logo" width="80" height="80" />
         </Rotate>
 
-        <BigTitlte text="WORK" top="10%" right="20%" />
+        <BigTitlte text="Event" top="10%" right="20%" />
       </Box>
     </ThemeProvider>
   );

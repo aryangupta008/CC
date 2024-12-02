@@ -3,60 +3,39 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"2024-2025",
+        description:"Memories for 2024-2025",
+        tags:["Aarvam","Rangratri","Cresendo"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://drive.google.com/drive/folders/1a60TyAV8DQEtkDYNFx6zavFr5f0nlsAi",
+        
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"2023-2024",
+        description:"Memories for 2024-2025",
+        tags:["Aarvam","Rangratri","Cresendo"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
-        
+        demo:"https://drive.google.com/drive/folders/1a60TyAV8DQEtkDYNFx6zavFr5f0nlsAi",
+        github:"https://github.com/codebucks27/Agency-website"
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"2022-2023",
+        description:"Memories for 2024-2025",
+        tags:["Aarvam","Rangratri","Cresendo"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"https://drive.google.com/drive/folders/1a60TyAV8DQEtkDYNFx6zavFr5f0nlsAi",
+        github:"https://github.com/codebucks27/Agency-website"
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        name:"2021-2022",
+        description:"Memories for 2024-2025",
+        tags:["Aarvam","Rangratri","Cresendo"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
-       
-    },{
-        id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
-        
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
-        
-    },
-    {
-        id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
-        
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
-        
+        demo:"https://drive.google.com/drive/folders/1a60TyAV8DQEtkDYNFx6zavFr5f0nlsAi",
+        github:"https://github.com/codebucks27/Agency-website"
     },
     
   

@@ -116,9 +116,7 @@ const Card = (props) => {
                 <Link href={demo} target="_blank">
                     Visit
                 </Link>
-                <Git  href={github}  target="_blank">
-                    <Github width={30} height={30} />
-                </Git>
+                
             </Footer>
         </Box>
     )

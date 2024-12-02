@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 // import { NavLink } from 'react-router-dom'
 import styled from "styled-components";
-import { Facebook, Github, Twitter, YouTube } from "../components/AllSvgs";
+import {YouTube, Instagram,Linkedin } from "../components/AllSvgs";
 import { DarkTheme } from "../components/Themes";
 
 const Icons = styled.div`
@@ -12,7 +12,7 @@ const Icons = styled.div`
 
   position: fixed;
   bottom: 0;
-  left: 2rem;
+  left: 1.5rem;
 
   z-index: 3;
 
@@ -31,23 +31,7 @@ const Line = styled(motion.span)`
 const SocialIcons = (props) => {
   return (
     <Icons>
-      <motion.div
-        initial={{scale:0 }}
-        animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 1 }}
-      >
-        <a
-          style={{ color: "inherit" }}
-          target="_blank"
-          href={"https://github.com/codebucks27"}
-        >
-          <Github
-            width={25}
-            height={25}
-            fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
-          />
-        </a>
-      </motion.div>
+      
       <motion.div
         initial={{scale:0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
@@ -56,11 +40,12 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://twitter.com/code_bucks"}
+          rel="noopener noreferrer"
+          href={"https://www.linkedin.com/in/cultural-club-xime?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}
         >
-          <Twitter
-            width={25}
-            height={25}
+          <Linkedin
+            width={27}
+            height={27}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
@@ -73,11 +58,12 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://facebook.com/codebucks27"}
+          rel="noopener noreferrer"
+          href={"https://www.instagram.com/culturalclub_bangalore?igsh=ZmcxNHJvYmExbGty"}
         >
-          <Facebook
-            width={25}
-            height={25}
+          <Instagram
+            width={30}
+            height={30}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
@@ -90,7 +76,8 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://youtube.com"}
+          rel="noopener noreferrer"
+          href={"https://youtube.com/@culturalclubxime8356?si=higCeZrvQkXg211C"}
         >
           <YouTube
             width={25}
@@ -106,7 +93,7 @@ const SocialIcons = (props) => {
           height: 0,
         }}
         animate={{
-          height: "8rem",
+          height: "9rem",
         }}
         transition={{
           type: "spring",

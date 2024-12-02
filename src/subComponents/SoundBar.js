@@ -9,7 +9,7 @@ cursor:pointer;
 position:fixed;
 left:8rem;
 top:3rem;
-z-index:10;
+z-index:12;
 
 &>*:nth-child(1){
     animation-delay: 0.2s;
