@@ -29,10 +29,10 @@ const pulse = keyframes`
 
 const Spaceman = styled.div`
 position: absolute;
-top: 25%;
+top: 10%;
 right: 1%;
-width: 40vw;
-animation: ${float} 4s ease infinite, ${pulse} 2s ease-in-out infinite;
+width: 70vw;
+animation: ${float} 4s ease infinite;
 img{
     width: 100%;
     height: auto;
@@ -40,7 +40,7 @@ img{
 `
 
 const Main =  styled.div`
-  border: 2px solid transparent;
+  
   color: ${(props) => props.theme.text};
   padding: 2rem;
   width: 50vw;
@@ -51,12 +51,11 @@ const Main =  styled.div`
   justify-content: center;
   align-items: center;
   font-size: calc(0.6rem + 1vw);
-  backdrop-filter: blur(4px);
   
   position: absolute;
-  left: calc(5rem + 5vw);
+  left: calc(3rem + 5vw);
   top: 10rem;
-  font-family: 'dynapuff', monospace;
+  font-family: 'Ubuntu Mono', monospace;
   font-style: italic;
 `
 

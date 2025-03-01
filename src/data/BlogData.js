@@ -29,6 +29,7 @@ import Emily from '../assets/Images/Emily.png'
 import Jovita from '../assets/Images/Jovita.png'
 import Soumroup from '../assets/Images/Soumroup.png'
 import Derwin from '../assets/Images/Derwin.png'
+import Ishika from '../assets/Images/Ishika.png'
 
 
 export const Blogs = [
@@ -49,7 +50,7 @@ export const Blogs = [
     },
     {
         id:3,
-        name:"Athara Jacob",
+        name:"Atharah Jacob",
         tags:["President"],
         date:"6 July, 2021",
         imgSrc: Athara
@@ -98,7 +99,7 @@ export const Blogs = [
     {
         id:11,
         name:"Derwin",
-        tags:["Office Bearers"],
+        tags:["Event Head"],
         imgSrc: Derwin
 
     },
@@ -118,8 +119,7 @@ export const Blogs = [
         id:14,
         name:"Ishika",
         tags:["Office Bearers"],
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-
+        imgSrc: Ishika,
     },
     {
         id:15,

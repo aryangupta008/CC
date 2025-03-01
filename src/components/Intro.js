@@ -19,17 +19,11 @@ display: flex;
 
 background: linear-gradient(
     to right,
-    transparent 50%,
-    transparent 50%) bottom,
-    linear-gradient(
-    to right,
-    transparent 50%,
-    transparent 50%) top;
+    ${props => props.theme.body} 50%,
+    ${props => props.theme.text} 50%) 
     background-repeat: no-repeat;
 background-size: 100% 2px;
-    border-left: 2px solid transparent;
-    border-right: 2px solid transparent;
-
+    
 
     z-index:1;
 
@@ -42,21 +36,23 @@ display: flex;
 .pic{
     position: absolute;
     bottom: 0;
-    left: 70%;
-    transform: translate(-50%,0%);
+    top: 5vh;
+    left: 50%;
+    transform: translate(-50%,-20%);
     width: 100%;
-    height:100%;
+    height: 95%;
 }
 `
 
 const Text = styled.div`
 font-size: calc(1em + 1.5vw);
 color: ${props => props.theme.body};
-padding: 2rem;
+padding: 0rem;
 cursor: pointer;
 
  h1, h3, h6 {
     font-family: 'DynaPuff', cursive;
+    
   }
 
 
@@ -77,7 +73,7 @@ const Intro = () => {
     return (
         <Box
         initial={{height:0}}
-        animate={{height: '60vh'}}
+        animate={{height: '30vh'}}
         transition={{ type: 'spring', duration:2, delay:1 }}
         >
             <SubBox>
