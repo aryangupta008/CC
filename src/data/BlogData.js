@@ -42,13 +42,6 @@ export const Blogs = [
         
     },
     {
-        id:2,
-        name:"Jovita Rexy",
-        tags:["Faculty Co-ordinator"],
-        date:"5 July, 2021",
-        imgSrc: Jovita
-    },
-    {
         id:3,
         name:"Atharah Jacob",
         tags:["President"],
